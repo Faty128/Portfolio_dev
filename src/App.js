@@ -6,12 +6,12 @@ const App = () => {
       {/* Navbar */}
       <nav className="fixed top-0 w-full bg-transparent text-white py-6 px-8 z-50">
         <div className="flex justify-between items-center">
-          <a href="#home" className="text-3xl font-bold text-teal-400 hover:text-teal-500">Mon Portfolio</a>
+          <a href="#home" className="text-3xl font-bold text-teal-300 hover:text-teal-200">Mon Portfolio</a>
           <ul className="flex space-x-8">
-            <li><a href="#projects" className="hover:text-teal-400">Projets</a></li>
-            <li><a href="#skills" className="hover:text-teal-400">Compétences</a></li>
-            <li><a href="#testimonials" className="hover:text-teal-400">Témoignages</a></li>
-            <li><a href="#contact" className="hover:text-teal-400">Contact</a></li>
+            <li><a href="#projects" className="hover:text-teal-200">Projets</a></li>
+            <li><a href="#skills" className="hover:text-teal-200">Compétences</a></li>
+            <li><a href="#testimonials" className="hover:text-teal-200">Témoignages</a></li>
+            <li><a href="#contact" className="hover:text-teal-200">Contact</a></li>
           </ul>
         </div>
       </nav>
