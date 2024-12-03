@@ -266,9 +266,9 @@ const App = () => {
           <h2 className="text-4xl font-bold text-teal-400">Contactez-moi</h2>
           <p className="mt-4 text-lg">Envoyez-moi un message pour discuter de votre prochain projet ou de collaboration.</p>
           <form className="mt-12 space-y-6">
-            <input type="text" placeholder="Nom" className="w-full px-4 py-2 border border-gray-500 rounded-md text-gray-900" />
-            <input type="email" placeholder="Email" className="w-full px-4 py-2 border border-gray-500 rounded-md text-gray-900" />
-            <textarea placeholder="Message" className="w-full px-4 py-2 border border-gray-500 rounded-md text-gray-900"></textarea>
+            <input type="text" placeholder="Nom" className="w-full px-4 py-2 border border-gray-500 rounded-md text-gray-900 outline-none shadow-sm focus:ring-2 focus:ring-teal-400 focus:border-teal-400" />
+            <input type="email" placeholder="Email" className="w-full px-4 py-2 border border-gray-500 rounded-md text-gray-900 outline-none shadow-sm focus:ring-2 focus:ring-teal-400 focus:border-teal-400" />
+            <textarea placeholder="Message" className="w-full px-4 py-2 border border-gray-500 rounded-md text-gray-900 outline-none shadow-sm focus:ring-2 focus:ring-teal-400 focus:border-teal-400"></textarea>
             <button className="w-full bg-teal-500 text-white py-2 rounded-md">Envoyer</button>
           </form>
         </div>
@@ -280,28 +280,28 @@ const App = () => {
     <p>Suivez-moi sur mes réseaux sociaux</p>
     <div className="mt-4 flex justify-center space-x-6">
       {/* Facebook */}
-      <a href="#" aria-label="Facebook" className="hover:text-teal-200">
+      <a href="https://facebook.com" aria-label="Facebook" className="hover:text-teal-200">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M22.675 0H1.325C.593 0 0 .594 0 1.326v21.348C0 23.406.593 24 1.325 24H12v-9.294H9.294v-3.294H12V8.412c0-2.677 1.633-4.137 4.02-4.137 1.144 0 2.129.084 2.414.123v2.798h-1.653c-1.296 0-1.548.616-1.548 1.52v1.992h3.097l-.403 3.294H15.23V24h7.445C23.406 24 24 23.406 24 22.674V1.326C24 .594 23.406 0 22.675 0z" />
         </svg>
       </a>
 
       {/* Twitter */}
-      <a href="#" aria-label="Twitter" className="hover:text-teal-200">
+      <a href="https://twitter.com" aria-label="Twitter" className="hover:text-teal-200">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M24 4.557a9.94 9.94 0 01-2.828.775A4.94 4.94 0 0023.337 3a9.885 9.885 0 01-3.127 1.194 4.926 4.926 0 00-8.388 4.482A13.978 13.978 0 011.671 3.149a4.926 4.926 0 001.523 6.574A4.903 4.903 0 01.96 9.09v.06a4.926 4.926 0 003.946 4.827 4.928 4.928 0 01-2.224.085 4.927 4.927 0 004.6 3.42A9.867 9.867 0 010 20.017 13.932 13.932 0 007.548 22c9.142 0 14.307-7.721 14.307-14.417 0-.219-.005-.437-.014-.653A10.243 10.243 0 0024 4.557z" />
         </svg>
       </a>
 
       {/* Instagram */}
-      <a href="#" aria-label="Instagram" className="hover:text-teal-200">
+      <a href="https://instagram.com" aria-label="Instagram" className="hover:text-teal-200">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2.163c3.204 0 3.584.012 4.849.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.849c.062-1.366.334-2.633 1.31-3.608C4.518 2.497 5.785 2.225 7.151 2.163 8.416 2.105 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332 0 7.052.07 5.74.141 4.467.414 3.396 1.486 2.325 2.558 2.052 3.832 1.98 5.143.91 6.423.91 6.832.91 12s0 5.578.07 6.857c.071 1.31.344 2.584 1.415 3.656 1.071 1.071 2.345 1.344 3.656 1.415 1.279.07 1.688.07 6.859.07s5.578 0 6.857-.07c1.31-.071 2.584-.344 3.656-1.415 1.071-1.071 1.344-2.345 1.415-3.656.07-1.279.07-1.688.07-6.857s0-5.578-.07-6.857c-.071-1.31-.344-2.584-1.415-3.656C20.88.414 19.606.141 18.295.07 17.015 0 16.606 0 12 0z" />
         </svg>
       </a>
 
       {/* LinkedIn */}
-      <a href="#" aria-label="LinkedIn" className="hover:text-teal-200">
+      <a href="https://linkedIn.com" aria-label="LinkedIn" className="hover:text-teal-200">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
           <path d="M19.5 3A2.502 2.502 0 0122 5.5v13A2.502 2.502 0 0119.5 21h-15A2.502 2.502 0 012 18.5v-13A2.502 2.502 0 014.5 3h15zM8.775 17.25V9.63h-2.7v7.62h2.7zm-1.38-8.687c.993 0 1.576-.662 1.576-1.487 0-.835-.592-1.487-1.602-1.487s-1.575.652-1.575 1.487c0 .825.573 1.487 1.57 1.487h.031zm10.605 8.687v-4.308c0-1.079-.384-1.813-1.349-1.813-.738 0-1.175.497-1.367.975-.07.167-.088.398-.088.63v4.516h-2.7v-7.62h2.7v1.04h.038c.356-.562 1-1.368 2.337-1.368 1.635 0 2.872 1.088 2.872 3.428v4.52h-2.7z" />
         </svg>
