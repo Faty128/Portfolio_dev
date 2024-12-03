@@ -236,6 +236,105 @@ const App = () => {
 </section>
 
 
+<section id="experience" className="py-24 bg-gray-900">
+  <div className="max-w-7xl mx-auto text-center px-6">
+    <h2 className="text-4xl font-bold text-teal-400">Mes Expériences</h2>
+    <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+
+      {/* Experience 1 */}
+      <div className="bg-teal-700 p-6 rounded-lg shadow-lg text-left">
+        <div className="flex items-center space-x-4">
+          <i className="fas fa-laptop-code text-4xl text-blue-400"></i>
+          <h3 className="text-xl font-semibold text-white">Développeur Web</h3>
+        </div>
+        <p className="mt-4 text-gray-300 text-sm">
+          Développement d'applications web dynamiques avec React.js et Node.js.
+        </p>
+        <p className="text-gray-400 text-xs mt-2">Janvier 2020 - Décembre 2021 | Paris, France</p>
+        <div className="mt-4">
+          <a 
+            href="https://example.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-500"
+          >
+            Voir les détails
+          </a>
+        </div>
+      </div>
+
+      {/* Experience 2 */}
+      <div className="bg-teal-700 p-6 rounded-lg shadow-lg text-left">
+        <div className="flex items-center space-x-4">
+          <i className="fas fa-cogs text-4xl text-green-400"></i>
+          <h3 className="text-xl font-semibold text-white">Ingénieur DevOps</h3>
+        </div>
+        <p className="mt-4 text-gray-300 text-sm">
+          Mise en place et gestion des pipelines CI/CD pour des applications scalables.
+        </p>
+        <p className="text-gray-400 text-xs mt-2">Mars 2022 - Présent | Lyon, France</p>
+        <div className="mt-4">
+          <a 
+            href="https://example.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-500"
+          >
+            Voir les détails
+          </a>
+        </div>
+      </div>
+
+      {/* Experience 3 */}
+      <div className="bg-teal-700 p-6 rounded-lg shadow-lg text-left">
+        <div className="flex items-center space-x-4">
+          <i className="fas fa-briefcase text-4xl text-purple-400"></i>
+          <h3 className="text-lg font-semibold text-white">Consultant Technique</h3>
+        </div>
+        <p className="mt-4 text-gray-300 text-sm">
+          Conseils en architecture logicielle et optimisation des performances des applications.
+        </p>
+        <p className="text-gray-400 text-xs mt-2">Juin 2018 - Décembre 2019 | Paris, France</p>
+        <div className="mt-4">
+          <a 
+            href="https://example.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-500"
+          >
+            Voir les détails
+          </a>
+        </div>
+      </div>
+
+      {/* Experience 4 */}
+      <div className="bg-teal-700 p-6 rounded-lg shadow-lg text-left">
+        <div className="flex items-center space-x-4">
+          <i className="fas fa-chart-line text-4xl text-orange-400"></i>
+          <h3 className="text-xl font-semibold text-white">Analyste Business</h3>
+        </div>
+        <p className="mt-4 text-gray-300 text-sm">
+          Analyse des besoins des utilisateurs et conception de solutions adaptées aux objectifs commerciaux.
+        </p>
+        <p className="text-gray-400 text-xs mt-2">Septembre 2017 - Mai 2018 | Marseille, France</p>
+        <div className="mt-4">
+          <a 
+            href="https://example.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-teal-400 hover:text-teal-500"
+          >
+            Voir les détails
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
       {/* Testimonials Section */}
       <section id="testimonials" className="py-24 bg-gray-800">
         <div className="max-w-7xl mx-auto text-center px-6">
